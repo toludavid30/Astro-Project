@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #181a20;
+  color: white;
+  padding: 0.5% 0;
+}
+nav .left {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+nav img {
+  width: 120px;
+  height: 35px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 110%;
+}
+nav ul {
+  padding-top: 15px;
+  text-align: start;
+  list-style-type: none;
+  display: flex;
+  -moz-column-gap: 55px;
+       column-gap: 55px;
+}
+nav .drop ul a {
+  font-weight: 700;
+  font-size: 180% !important;
+}
+nav .drop ul button {
+  font-size: 100%;
+  font-weight: 700;
+}
+nav .drop ul li {
+  border-bottom: 1px black solid;
+  padding: 10px !important;
+}
+nav .drop .drop2 li {
+  border: none;
+  padding: 0px !important;
+}
+nav .drop .drop2 a {
+  border: none;
+  font-size: 120% !important;
+  color: grey;
+}
+nav .navwrapper {
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .right {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+nav .right .hamburger {
+  display: none;
+}
+nav i {
+  font-size: 150%;
+}
+nav .btn {
+  margin-top: -5px !important;
+}
+nav .get {
+  padding: 20px 0px;
+}
+nav .get i {
+  font-size: 90%;
+}
+nav .get button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  padding: 1% 43%;
+}
