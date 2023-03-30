@@ -87,3 +87,91 @@ nav .get button {
   outline: none;
   padding: 1% 43%;
 }
+
+.button {
+  background-color: white;
+  color: blue;
+  padding: 3% 15%;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+
+#heroPage {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(black, rgb(42, 42, 128), black);
+}
+#heroPage .textwrapper {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 9% 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+#heroPage .textwrapper h1 {
+  max-width: 90%;
+  margin: 0 auto;
+  color: white;
+  font-size: 75px;
+}
+#heroPage .textwrapper p {
+  max-width: 100%;
+  margin: 0 auto;
+  color: #beb9cf;
+  font-size: 150%;
+}
+#heroPage .textwrapper .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+#heroPage .textwrapper .npm {
+  height: 55px;
+  width: 300px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-color: linear-gradient(to right, blue, pink);
+}
+#heroPage .textwrapper .npm .text {
+  width: 500px;
+  font-size: 90%;
+  padding: 10px;
+}
+#heroPage .textwrapper .npm .copy {
+  padding: 10px;
+}
+#heroPage .sponsors {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+#heroPage .sponsors .left {
+  max-width: 10%;
+  color: #5f616e;
+}
+#heroPage .sponsors .main {
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  flex-wrap: wrap;
+}
+#heroPage .sponsors .main img {
+  height: 90px;
+  width: 200px;
+}
