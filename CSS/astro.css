@@ -4,6 +4,7 @@
 }
 
 nav {
+  max-width: 100%;
   background-color: #181a20;
   color: white;
   padding: 0.5% 0;
@@ -53,7 +54,7 @@ nav .drop .drop2 a {
   color: grey;
 }
 nav .navwrapper {
-  max-width: 95%;
+  max-width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -150,7 +151,7 @@ nav .get button {
   padding: 10px;
 }
 #heroPage .sponsors {
-  max-width: 90%;
+  width: 85%;
   margin: 0 auto;
   padding-bottom: 5%;
   display: flex;
@@ -174,4 +175,111 @@ nav .get button {
 #heroPage .sponsors .main img {
   height: 90px;
   width: 200px;
+}
+
+#speedSection {
+  background-color: black;
+  padding: 50px 0px;
+}
+#speedSection .sectWrapper h1 {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  padding: 30px 0px;
+}
+#speedSection .sectWrapper .p {
+  max-width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  color: #a7a9b1;
+  padding-bottom: 50px;
+}
+#speedSection .sectWrapper .p a {
+  text-decoration: none;
+  color: gray;
+}
+#speedSection .sectWrapper .RealWorld {
+  background-color: #252830;
+  padding: 30px;
+  color: #a7a9b1;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-bottom: 0px;
+}
+#speedSection .sectWrapper .RealWorld div {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  font-size: 1.8rem;
+  padding: 6px;
+  align-items: center;
+  justify-content: flex-end;
+}
+#speedSection .sectWrapper .RealWorld p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#speedSection .sectWrapper .RealWorld .barWrapper1 {
+  border: 1px white solid;
+  padding: 4px;
+  border-radius: 10px;
+  width: 80%;
+  color: white;
+  font-size: large;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#speedSection .sectWrapper .RealWorld .barWrapper1 .bar1 {
+  height: 30px;
+  width: 96%;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #3357b8, #4ceac9);
+}
+#speedSection .sectWrapper .RealWorld .barWrapper {
+  border: 1px #545864 solid;
+  padding: 4px;
+  border-radius: 10px;
+  width: 80%;
+  color: grey;
+  font-size: large;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+#speedSection .sectWrapper .RealWorld .barWrapper .bar2 {
+  height: 30px;
+  width: 65%;
+  border-radius: 5px;
+  background-color: #575b68;
+}
+#speedSection .sectWrapper .RealWorld .bar3 {
+  height: 30px;
+  width: 58%;
+  border-radius: 5px;
+  background-color: #575b68;
+}
+#speedSection .sectWrapper .RealWorld .bar4 {
+  height: 30px;
+  width: 45%;
+  border-radius: 5px;
+  background-color: #575b68;
+}
+#speedSection .sectWrapper .RealWorld .bar5 {
+  height: 30px;
+  width: 35%;
+  border-radius: 5px;
+  background-color: #575b68;
+}
+#speedSection .sectWrapper .RealWorld .p2 {
+  text-align: center;
+  color: #a7a9b1;
+  padding: 20px 0px;
+  font-size: 1.05rem;
+}
+#speedSection .sectWrapper .RealWorld a {
+  color: #c3c7cb;
 }

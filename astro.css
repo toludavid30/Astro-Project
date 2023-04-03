@@ -9,3 +9,13 @@
         display: block;
     }
 } 
+@media (max-width: 850px){
+
+   #speedSection .RealWorld div{
+    flex-direction: column;
+    text-align: start;
+   }
+   #speedSection .RealWorld div div{
+    flex-direction: row;
+   }
+}
