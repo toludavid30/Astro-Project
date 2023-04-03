@@ -18,4 +18,13 @@
    #speedSection .RealWorld div div{
     flex-direction: row;
    }
+   #focusedSection .main{
+    flex-direction: column !important;
+   }
+   #focusedSection .main .left{
+    width: 95% !important;
+   }
+   #focusedSection .main .right{
+    width: 95% !important;
+   }
 }
